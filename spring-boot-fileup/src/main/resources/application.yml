@@ -1,0 +1,8 @@
+spring:
+  servlet:
+    multipart:
+      #单个文件大小
+      max-file-size: 1MB
+      #开启文件上传
+      enabled: true
+      max-request-size: 10MB

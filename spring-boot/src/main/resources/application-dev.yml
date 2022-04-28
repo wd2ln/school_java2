@@ -1,0 +1,4 @@
+server:
+  servlet:
+    context-path: /dev
+  port: 8888

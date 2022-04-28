@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/JWT_base64/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JWT_base64/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JWT_start/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JWT_start/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JWT_web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JWT_web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Mybatis_Generator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Mybatis_Generator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SSM_JZFP/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SSM_JZFP/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-ajax/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-email/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-expection/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-fileup/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-filter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-interceptor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-internationlization-fix/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-internationlization/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-internationlization/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-jdbctmpl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-origin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-testfix/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVCAjax/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVCAjax/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC_ControllerAdvice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC_ControllerAdvice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC_Exception/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC_Exception/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC_FileDown/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC_FileDown/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC_FileUP_Jersey/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC_FileUP_Jersey/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC_FileUP_test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC_FileUP_test/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC_Interceptor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC_Interceptor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC_SSM_webChat/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC_SSM_webChat/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC_region/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMVC_region/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yun_bi_ji/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yun_bi_ji/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

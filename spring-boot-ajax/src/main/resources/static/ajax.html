@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>测试Ajax文件上传</title>
+    <script src="webjars/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+<form id="form">
+    <input type="text" name="name">
+    <input type="password" name="password">
+    <button type="button" onclick="upload()">上传</button>
+</form>
+</body>
+<script>
+    function upload() {
+        var formData = $("form").serialize();
+console.log(formData);
+        $.ajax({
+            url: "/ajax/test",
+            type: "post",
+            data: formData,
+            success: function (resp) {
+                if (resp.code === 200) {
+                    alert('文件上传成功！！！');
+                }
+            }
+        });
+    };
+</script>
+</html>

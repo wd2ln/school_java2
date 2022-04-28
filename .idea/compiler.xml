@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springMVC_FileUP_Jersey" />
+        <module name="springMVC" />
+        <module name="springMVC_FileUP_test" />
+        <module name="spring-boot-email" />
+        <module name="SSM_JZFP" />
+        <module name="springMVCAjax" />
+        <module name="spring-boot-ajax" />
+        <module name="yun_bi_ji" />
+        <module name="spring-boot-interceptor" />
+        <module name="springMVC_Exception" />
+        <module name="springMVC_region" />
+        <module name="spring-boot-internationlization-fix" />
+        <module name="springMVC_ControllerAdvice" />
+        <module name="spring-boot-filter" />
+        <module name="spring-boot-expection" />
+        <module name="jwt_web" />
+        <module name="springMVC_SSM_webChat" />
+        <module name="spring-boot-fileup" />
+        <module name="springMVC_Interceptor" />
+        <module name="spring-boot-testfix" />
+        <module name="JWT_base64" />
+        <module name="spring-boot-jdbctmpl" />
+        <module name="JWT_web" />
+        <module name="spring-boot" />
+        <module name="Mybatis_Generator" />
+        <module name="JWT_start" />
+        <module name="spring-boot-origin" />
+        <module name="springMVC_FileDown" />
+        <module name="spring-boot-internationlization" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jwt_web" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-boot" options="-parameters" />
+      <module name="spring-boot-ajax" options="-parameters" />
+      <module name="spring-boot-email" options="-parameters" />
+      <module name="spring-boot-expection" options="-parameters" />
+      <module name="spring-boot-fileup" options="-parameters" />
+      <module name="spring-boot-filter" options="-parameters" />
+      <module name="spring-boot-interceptor" options="-parameters" />
+      <module name="spring-boot-internationlization" options="-parameters" />
+      <module name="spring-boot-internationlization-fix" options="-parameters" />
+      <module name="spring-boot-jdbctmpl" options="-parameters" />
+      <module name="spring-boot-origin" options="-parameters" />
+      <module name="spring-boot-testfix" options="-parameters" />
+    </option>
+  </component>
+</project>

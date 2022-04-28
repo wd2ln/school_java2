@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+         http://www.springframework.org/schema/context
+         https://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/mvc
+         https://www.springframework.org/schema/mvc/spring-mvc.xsd
+">
+
+<!--    自定义类型转换器-->
+    <bean id="factoryBean" class="org.springframework.context.support.ConversionServiceFactoryBean">
+        <property name="converters">
+            <set>
+                <bean class="com.pzz.util.StringToDateConverter"></bean>
+            </set>
+        </property>
+    </bean>
+<!--    扫描包下所有注解-->
+    <context:component-scan base-package="com.pzz"></context:component-scan>
+<!--    开启一些格外的扩展功能，自定义参数转换器-->
+    <mvc:annotation-driven  conversion-service="factoryBean"/>
+<!--    放行静态资源-->
+    <mvc:default-servlet-handler/>
+
+</beans>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shi_wu_zhu_jie" />
+        <module name="shi_wu_sheng_ming" />
+        <module name="aop_start" />
+        <module name="springMVC" />
+        <module name="shi_wu_all_zhu_jie" />
+        <module name="shi_wu" />
+        <module name="aop_start_02" />
+        <module name="aop_start_01" />
+        <module name="spring_jdbc1" />
+        <module name="proxy_pattern" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bbb" target="11" />
+      <module name="spring1" target="11" />
+      <module name="spring_jdbc" target="11" />
+      <module name="spring_jdbc_zhujie" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

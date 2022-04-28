@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+    <form action="/user/login" id="from">
+        账号:<input type="text" name="username"></br>
+        密码:<input type="password" name="password"></br>
+        <input type="button" onclick="dl()" value="登录">
+    </form>
+</body>
+<script type="application/javascript">
+    function dl() {
+        var data=$("#from").serialize();
+        $.ajax({
+            type:"post",
+            url:"/user/login",
+            data:data,
+            success:function (reqs) {
+                if (reqs.success){
+                    alert("登录成功");
+                    alert(reqs.token);
+                    $(location).attr("href","/success.html")
+                    localStorage.setItem("token",reqs.token);
+                }else {
+                    alert("登录失败");
+
+                }
+            }
+        });
+    }
+</script>
+</html>

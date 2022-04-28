@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--无参构造-->
+    <bean id="userDao" class="com.pzz.dao.impl.UserImpl"></bean>
+    <!--    静态工厂-->
+    <bean id="userDaoFactory" class="com.pzz.factory.UserDaoFactory"  factory-method="getUserDaoImpl" ></bean>
+    <!--    实例工厂-->
+    <bean id="dyUserDaoFactory" class="com.pzz.factory.DyUserDaoFactory"></bean>
+    <bean id="userDao1" factory-bean="dyUserDaoFactory" factory-method="getUserDaoImpl1"></bean>
+    <!--    set注入-->
+    <!--    <bean id="userService" class="com.pzz.service.impl.UserServiceImpl" p:user-ref="userDao">-->
+    <!--        命名空间       p:user-ref="userDao"-->
+    <!--        <property name="user" ref="userDao"></property>-->
+    <!--    </bean>-->
+    <!--    构造方法-->
+    <bean id="userServiceCon" class="com.pzz.service.impl.UserServiceImpl">
+        <constructor-arg name="user" ref="userDao"></constructor-arg>
+    </bean>
+    <!--    混合注入-->
+    <bean id="student" class="com.pzz.entity.Student">
+        <property name="age" value="23" />
+        <property name="name" value="老刘" />
+        <property name="stuList">
+            <list>
+                <value>yyyyy</value>
+                <value>aaaaa</value>
+                <value>bbbbb</value>
+            </list>
+        </property>
+        <property name="stuMap">
+            <map>
+                <entry key="a1" value-ref="dog"></entry>
+                <entry key="b1" value-ref="dog1"></entry>
+            </map>
+        </property>
+        <property name="properties" value="3333jjj"></property>
+    </bean>
+    <!--    注入两个Dog实体类-->
+    <bean id="dog" class="com.pzz.entity.Dog">
+        <property name="name" value="金毛"></property>
+        <property name="info" value="金毛牛逼77777"></property>
+    </bean><bean id="dog1" class="com.pzz.entity.Dog">
+    <property name="name" value="黑毛"></property>
+    <property name="info" value="黑毛牛逼77777"></property>
+</bean>
+
+</beans>

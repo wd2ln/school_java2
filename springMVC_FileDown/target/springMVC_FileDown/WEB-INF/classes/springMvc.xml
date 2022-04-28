@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--    开启包扫描注解-->
+    <context:component-scan base-package="com.pzz.controller"/>
+<!--    释放静态资源-->
+    <mvc:default-servlet-handler/>
+    <!-- 开启SpringMVC框架注解的支持并使用自定义类型转换器 -->
+    <mvc:annotation-driven/>
+<!--    &lt;!&ndash;配置文件解析器&ndash;&gt;-->
+<!--    <bean id="commonsMultipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">-->
+<!--        &lt;!&ndash;上传文件的最大大小(字节)&ndash;&gt;-->
+<!--        <property name="maxUploadSize" value="50000000" />-->
+<!--        &lt;!&ndash;缓存&ndash;&gt;-->
+<!--        <property name="maxInMemorySize" value="4096" />-->
+<!--        &lt;!&ndash;默认的编码集&ndash;&gt;-->
+<!--        <property name="defaultEncoding" value="defaultEncoding"/>-->
+<!--        &lt;!&ndash;单个文件的最大大小(字节)&ndash;&gt;-->
+<!--        <property name="maxUploadSizePerFile" value="2000000"/>-->
+<!--    </bean>-->
+</beans>

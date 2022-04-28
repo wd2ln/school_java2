@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--MyBatis核心配置-->
+<configuration>
+    <settings>
+        <!--配置日志框架为log4j2-->
+        <setting name="logImpl" value="LOG4J2"/>
+<!--        开启二级缓存-->
+        <setting name="cacheEnabled" value="true"/>
+        <!--开启将下划线映射到驼峰命名的规则规则-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+    <!--映射文件-->
+<!--    可在application中配置-->
+<!--    <mappers>-->
+<!--        <mapper resource="mapper/TbMusicMapper.xml"/>-->
+<!--        <mapper resource="mapper/TbSheetMapper.xml"/>-->
+<!--    </mappers>-->
+</configuration>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring_jdbc1/pom.xml" />
+        <option value="$PROJECT_DIR$/../proxy_pattern/pom.xml" />
+        <option value="$PROJECT_DIR$/../aop_start/pom.xml" />
+        <option value="$PROJECT_DIR$/../aop_start_01/pom.xml" />
+        <option value="$PROJECT_DIR$/../aop_start_02/pom.xml" />
+        <option value="$PROJECT_DIR$/../shi_wu/pom.xml" />
+        <option value="$PROJECT_DIR$/../shi_wu_sheng_ming/pom.xml" />
+        <option value="$PROJECT_DIR$/../shi_wu_zhu_jie/pom.xml" />
+        <option value="$PROJECT_DIR$/../shi_wu_all_zhu_jie/pom.xml" />
+        <option value="$PROJECT_DIR$/../springMVC/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/spring_jdbc_zhujie/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

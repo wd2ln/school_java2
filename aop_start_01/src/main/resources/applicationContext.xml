@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
+<!--    配置目标对象-->
+    <bean id="userServiceImpl" class="com.pz.service.impl.UserServiceImpl"/>
+<!--    配置通知对象-->
+    <bean id="xmlAdvice" class="com.pz.advice.AnnotationAdvice"/>
+    <!-- 开启使用注解完成织入，声明基于类的方式实现代理 -->
+    <aop:aspectj-autoproxy proxy-target-class="true"/>
+</beans>

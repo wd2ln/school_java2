@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>登录成功</title>
+    <meta charset="UTF-8">
+
+    <script src="js/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+<h1>欢迎<span id="name"></span>登录成功</h1>
+</body>
+<script type="application/javascript">
+    $(function () {
+        //从本地拿取token
+        var token=localStorage.getItem("token");
+        $.ajax( {
+            type:"post",
+            url:"/user/isToken",
+            data:{"token":token},
+            success:function (reqs) {
+                console.log(reqs);
+                console.log(reqs.username);
+                if (reqs.username!=null){
+                    $("#name").text(reqs.username);
+                }else {
+                    $(location).attr("href","/login.html");
+                }
+            }
+        });
+    })
+</script>
+</html>

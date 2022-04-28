@@ -1,0 +1,21 @@
+#server:
+ # port: 8088
+  #配置web访问路径
+  #servlet:
+   # context-path: /ppp
+student:
+  name: "张三"
+  age: 34
+  gender: true
+  birthday: 2000/09/23
+  hobby: [23,45,56]
+  food:
+    - 555
+    - 888
+    - 999
+  score: {"fjei":"888","age":90}
+  car:
+    name: "吉普"
+spring:
+  profiles:
+    active: test

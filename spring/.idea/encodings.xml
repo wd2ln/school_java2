@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../aop_start/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../aop_start/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../aop_start_01/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../aop_start_01/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../aop_start_02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../aop_start_02/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../proxy_pattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../proxy_pattern/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shi_wu/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shi_wu/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shi_wu_all_zhu_jie/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shi_wu_all_zhu_jie/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shi_wu_sheng_ming/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shi_wu_sheng_ming/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shi_wu_zhu_jie/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shi_wu_zhu_jie/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springMVC/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springMVC/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring_jdbc1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring_jdbc1/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: asd
+    username: root
+    url: jdbc:mysql://localhost:3306/cloud_diary?useSSL=false&useUnicode=true&characterEncoding=UTF8&serverTimeZone=GTM+8

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--MyBatis核心配置-->
+<configuration>
+
+    <settings>
+        <!--开启将下划线映射到驼峰命名的规则规则-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <!--配置日志框架为log4j2-->
+        <setting name="logImpl" value="LOG4J2"/>
+<!--        开启二级缓存-->
+        <setting name="cacheEnabled" value="true"/>
+
+
+    </settings>
+    <plugins>
+        <!--pageHelper分页插件-->
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <!--自动检测当前的数据库链接-->
+            <property name="helperDialect" value="mysql"/>
+
+            <!--分页合理化参数，小于0页显示第一页，大于最后一页显示最后一页-->
+            <property name="reasonable" value="true"/>
+        </plugin>
+    </plugins>
+</configuration>
